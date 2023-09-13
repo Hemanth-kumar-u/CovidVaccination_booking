@@ -6,8 +6,8 @@ The COVID Vaccination Booking Web Application is a comprehensive solution built 
 https://covid-vaccination-booking.onrender.com/
 
 ## User Login
-Mobile No - 8248213992 
-MPIN - 5678
+Mobile No - 9566585444 
+MPIN - 1234
 
 Mobile No - 1234567890
 MPIN - 1234
@@ -25,7 +25,7 @@ Users can securely log in to their accounts or create new accounts with appropri
 Users can search for nearby vaccination centres. The application provides information about the centres and working hours. This feature helps users identify convenient vaccination options.
 
 ### Book Vaccination Slot
-Once logged in, users can apply for a vaccination slot. However, to ensure efficient vaccine distribution, the application restricts each day's appointments to a maximum of 10 candidates. Users can select their preferred time slot from the available options and reserve their spot.
+Once logged in, users can apply for a vaccination slot. However, the application restricts each day's appointments to a maximum of 10 candidates to ensure efficient vaccine distribution. Users can select their preferred time slot from the available options and reserve their spot.
 
 ### Logout
 Users can log out of their accounts, ensuring the security of their personal information and preventing unauthorized access to their accounts.
@@ -39,7 +39,7 @@ Administrators have a separate login portal to access the administrative functio
 Admins can add new vaccination centres to the system. They enter relevant details such as the centre's name, address, contact information, and working hours. This ensures that the application stays up-to-date with the latest vaccination centre information.
 
 ### Get Vaccination Details
-Admins can access vaccination details provided by vaccination centres. This gives us that the users of the vacccination slots where they have booked at the reespective date.
+Admins can access vaccination details provided by vaccination centres. This gives us the users of the vaccination slots where they have booked at the respective date.
 
 ### Get Dosage Details
 Admins can access dosage details provided by the vaccination centres. The application groups the dosage information according to the respective centres, enabling administrators to monitor and manage the vaccine distribution efficiently.
@@ -51,17 +51,17 @@ Admins have the authority to remove vaccination centres from the system when nec
 
 The COVID Vaccination Booking Web Application utilizes the following tech stack:
 
-- Backend: Django (a powerful Python web framework)
+- Backend: Django (a robust Python web framework)
 - Database: Django Administration 
 - Frontend: HTML and CSS and Tailwind
 
-The Django framework provides a robust foundation for building secure and scalable web applications, while HTML and CSS are used to create a user-friendly and visually appealing frontend.
+The Django framework provides a robust foundation for building secure and scalable web applications, while HTML and CSS are used to create a user-friendly and visually appealing front end.
 
 ## Getting Started
 
 To run the application on your local machine, follow these steps:
 
-1. Clone the repository: `git clone <https://github.com/AkashMurugan/covid_vaccination_booking>`
+1. Clone the repository: `git clone <https://github.com/Hemanth-kumar-u/CovidVaccination_booking.git>`
 2. Install the required dependencies by running: `pip install -r requirements.txt`
 3. Configure the database settings in the `<project-directory>/settings.py` file.
 4. Apply migrations to set up the database schema: `python manage.py migrate`
@@ -74,7 +74,7 @@ Contributions to the COVID Vaccination Booking Web Application are welcome. To c
 
 1. Fork the repository on GitHub.
 2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name`
-3. Make your changes, commit them, and push to your branch.
+3. Make your changes, commit them, and push them to your branch.
 4. Submit a pull request, describing the changes you made and their purpose.
 
 ## License
